@@ -1,0 +1,23 @@
+{
+  "name": "typescript-day2-tasks-oni",
+  "version": "1.0.0",
+  "description": "TypeScript Day 2 - Fundamentals Tasks",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "greet": "ts-node src/greet.ts",
+    "task1": "ts-node src/task1-array-manipulation.ts",
+    "task2": "ts-node src/task2-function-overloading.ts",
+    "task3": "ts-node src/task3-async-await.ts",
+    "task4": "ts-node src/task4-error-handling.ts",
+    "task5": "ts-node src/task5-interface-class.ts",
+    "task6": "ts-node src/task6-generic-function.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
